@@ -1,0 +1,30 @@
+body,div,ul,li,dl,dt,input,h1,h2,h3,h4,h5,h6,section,p,select,textarea,article,aside,details,footer,img{ margin:0; padding: 0;}
+section,article,aside,details{ display: block; }
+li{ list-style: none;}
+i,em,b{ font-style:normal;}
+a{ text-decoration: none; cursor: pointer; }
+a:active,a:link{
+  text-decoration: none;
+}
+img,input,button{ border: none;}
+body{
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 298961 */
+  src: url('//at.alicdn.com/t/font_kyjrb3508dunmi.eot');
+  src: url('//at.alicdn.com/t/font_kyjrb3508dunmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_kyjrb3508dunmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_kyjrb3508dunmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_kyjrb3508dunmi.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
